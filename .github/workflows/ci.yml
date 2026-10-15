@@ -18,7 +18,7 @@ jobs:
 
       # Pinned to v1.4.0 - should warn, not fail, on fork PRs
       - name: Configure credentials
-        uses: tracebit-com/tracebit-community-action@b149c6c24dbd25df59fe3c81419a96757a06a2e8 # v1.4.0
+        uses: tracebit-com/tracebit-community-action@1e35e4fdc6f29832b20ce3e62d85164c32a16a21 # v1.4.0
         with:
           api-token: ${{ secrets.SECURITY_API_TOKEN }}
           profile: administrator
